@@ -9,12 +9,12 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 #7 p stops.count()
 #8 p stops[2]
 #8 p stops[-4]
-#9 p stops[2..2]
-# p stops.fetch(2)
-# p stops.reverse
-# for stop in stops
+#8 p stops[2..2]
+#8 p stops.fetch(2)
+#9 p stops.reverse
+#10 for stop in stops
 #   p stop
-# end
+#   end
 
 users = {
   "Jonathan" => {
@@ -72,13 +72,13 @@ users = {
   }
 }
 
-# p users["Jonathan"][:twitter]
-# p users["Erik"][:home_town]
-# p users["Erik"][:lottery_numbers]
-# p users["Avril"][:pets][0][:species]
-# p users["Erik"][:lottery_numbers].min()
+#B1 p users["Jonathan"][:twitter]
+#2 p users["Erik"][:home_town]
+#3 p users["Erik"][:lottery_numbers]
+#4 p users["Avril"][:pets][0][:species]
+#5 p users["Erik"][:lottery_numbers].min()
 
-# avril_a = [12, 14, 33, 38, 9, 25]
+#6 avril_a = [12, 14, 33, 38, 9, 25]
 # def evens(array)
 #   lottery_array = []
 #   for numbers in array
@@ -90,10 +90,10 @@ users = {
 # end
 # p evens(avril_a)
 #
-# p users["Erik"][:lottery_numbers].push(7)
-# p users["Erik"][:home_town].replace("Edinburgh")
-# p users["Erik"][:pets].push(:name => "Fluffy", :pets => "dog")
-# p users.keys.push("Katy")
+#7 p users["Erik"][:lottery_numbers].push(7)
+#8 p users["Erik"][:home_town].replace("Edinburgh")
+#9 p users["Erik"][:pets].push(:name => "Fluffy", :pets => "dog")
+#10 p users.keys.push("jo")
 
 united_kingdom = [
   {
@@ -113,7 +113,7 @@ united_kingdom = [
   }
 ]
 
-# p united_kingdom[1][:capital].replace("cardiff")
+#C1 p united_kingdom[1][:capital].replace("cardiff")
 
 # p united_kingdom<<{name: "Northern Ireland", population: 181000, capital: "Belfast"}
 
